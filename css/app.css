@@ -18,7 +18,7 @@ body {
 
 body {
 	background: #ffffff;
-	font-family: 'Permanent Marker', cursive;
+	font-family: "Arial Black";
 	font-size: 16px;
 }
 
@@ -27,10 +27,11 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	background-color:blue;
 }
 
 h1 {
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Roboto',Arial,Helvetica,sans-serif;
 }
 
 
@@ -44,7 +45,7 @@ h1 {
 	background: #716F71;
 	padding: 1rem;
 	border-radius: 4px;
-	box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
+	box-shadow: 10px 10px 5px #aaaaaa;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -56,9 +57,9 @@ h1 {
 	height: 3.7rem;
 	width: 3.7rem;
 	margin: 0.2rem 0.2rem;
-	background: #141214;;
+	background: #e20220;
 	font-size: 0;
-	color: #ffffff;
+	color: blue;
 	border-radius: 5px;
 	cursor: pointer;
 	display: flex;
@@ -83,7 +84,7 @@ h1 {
 
 .deck .card.match {
 	cursor: default;
-	background: #E5F720;
+	background: rgb(0, 155, 0);
 	font-size: 33px;
 	animation-name: rubberBand;
 	-webkit-backface-visibility: visible !important;
@@ -96,7 +97,7 @@ h1 {
 	-webkit-backface-visibility: visible !important;
 	backface-visibility: visible !important;
 	animation-duration: .75s;
-	background: #e2043b;
+	background: #e20220;
 }
 
 .deck .card.disabled {
